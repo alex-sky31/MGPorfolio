@@ -1,0 +1,331 @@
+@media  (max-width: 950px)  {
+    .GlobalLayout {
+        width: auto;
+        background: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%),  url("../asset/video-bg.png") no-repeat center bottom/cover;
+        height: 750px;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding-top: 30px;
+        justify-content: space-between;
+
+    }
+    .headerTitle {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .headerIcon {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+    .contentM {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentTitle{
+        /* medium/100 */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 100px;
+        line-height: 116px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+    }
+    .line {
+        width: 50%;
+        border: 1.2px solid #FFFFFF;
+    }
+    .contentTitle2{
+        /* medium/100 */
+        /* regular/20 */
+        margin-top: 5%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+       text-align: center;
+        /* or 150% */
+
+        /* FFFFFF */
+        color: #FFFFFF;
+
+    }
+
+    .btn {
+        width: 170px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .btnText {
+        /* medium/16 */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        /* 0E0E0E */
+        color: #0E0E0E;
+    }
+
+    .credit {
+
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+
+    }
+
+    .image {
+        margin-top: 5%;
+    }
+
+    .contentElement2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .contentElement2line {
+        width: 10%;
+        margin-left: 0;
+        border: 1.2px solid #FFFFFF;
+    }
+
+    .contentElement2Title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        /* FFFFFF */
+        color: #FFFFFF;
+    }
+
+    .contentElement2Fashion {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+}
+
+@media  (min-width: 950px) {
+
+    .GlobalLayout {
+        width: auto;
+        background: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%), url("../asset/video-bg.png") no-repeat center bottom/cover;
+        height: 750px;
+        padding-left: 10%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding-top: 30px;
+        justify-content: space-between;
+
+    }
+
+    .headerTitle {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .headerIcon {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        padding-top: 10%;
+        width: 100%;
+    }
+    .contentM {
+        display: flex;
+        flex-direction: row;
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .contentTitle {
+        /* medium/100 */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 100px;
+        line-height: 116px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+    }
+
+    .line {
+        position: absolute;
+        width: 30%;
+        border: 1.2px solid #FFFFFF;
+    }
+
+    .contentTitle2 {
+        /* medium/100 */
+        /* regular/20 */
+        margin-top: 10%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        /* FFFFFF */
+        color: #FFFFFF;
+
+    }
+
+    .btn {
+        position: absolute;
+        width: 170px;
+        top: 35%;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .btnText {
+        /* medium/16 */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        /* 0E0E0E */
+        color: #0E0E0E;
+    }
+
+    .credit {
+
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+
+    }
+
+    .image {
+        margin-top: 5%;
+    }
+
+    .contentElement2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .contentElement2line {
+        width: 10%;
+        margin-left: 0;
+        border: 1.2px solid #FFFFFF;
+    }
+
+    .contentElement2Title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+
+        /* FFFFFF */
+        color: #FFFFFF;
+    }
+
+    .contentElement2Fashion {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+}
