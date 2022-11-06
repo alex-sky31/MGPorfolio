@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6cfa84f2.css",
+    "main.js": "/static/js/main.be87ee22.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/clu2.jpg": "/static/media/clu2.2ecad908eb83a3ddcec1.jpg",
+    "static/media/Balmain.jpg": "/static/media/Balmain.36224e6747c6ac198f7b.jpg",
+    "static/media/video-bg.png": "/static/media/video-bg.3a4cc2798766d8c44073.png",
+    "index.html": "/index.html",
+    "main.6cfa84f2.css.map": "/static/css/main.6cfa84f2.css.map",
+    "main.be87ee22.js.map": "/static/js/main.be87ee22.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cfa84f2.css",
+    "static/js/main.be87ee22.js"
+  ]
+}
