@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MGPorfolio/static/css/main.78deb3ba.css",
+    "main.js": "/MGPorfolio/static/js/main.054ce847.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MGPorfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/clu2.jpg": "/MGPorfolio/static/media/clu2.2ecad908eb83a3ddcec1.jpg",
+    "static/media/Balmain.jpg": "/MGPorfolio/static/media/Balmain.36224e6747c6ac198f7b.jpg",
+    "static/media/video-bg.png": "/MGPorfolio/static/media/video-bg.3a4cc2798766d8c44073.png",
+    "index.html": "/MGPorfolio/index.html",
+    "main.78deb3ba.css.map": "/MGPorfolio/static/css/main.78deb3ba.css.map",
+    "main.054ce847.js.map": "/MGPorfolio/static/js/main.054ce847.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MGPorfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78deb3ba.css",
+    "static/js/main.054ce847.js"
+  ]
+}
