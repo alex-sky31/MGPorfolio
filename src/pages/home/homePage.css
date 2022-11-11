@@ -1,16 +1,24 @@
+/*
+Mobil*/
+
 @media  (max-width: 950px)  {
     .GlobalLayout {
         width: auto;
-        background: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%),  url("../asset/video-bg.png") no-repeat center bottom/cover;
+        background: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%),  url("../../asset/video-bg.png") no-repeat center bottom/cover;
         height: 750px;
         padding-left: 10%;
         padding-right: 10%;
 
     }
+    .videoBg {
+        width: 100%;
+        z-index: 1;
+    }
+
     .header {
         display: flex;
         flex-direction: row;
-        width: 90%;
+        width: 100%;
         padding-top: 30px;
         justify-content: space-between;
 
@@ -137,6 +145,12 @@
         justify-content: center;
         margin-left: 10%;
     }
+    .contentElement2L {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10%;
+    }
     .contentElement2line {
         width: 10%;
         margin-left: 0;
@@ -163,11 +177,23 @@
     }
 }
 
+
+
+/*
+Display ordi
+*/
 @media  (min-width: 950px) {
+
+    .videoBg {
+        margin-top: 10px;
+        width: 90%;
+        height: 80vh;
+        z-index: 1;
+    }
 
     .GlobalLayout {
         width: auto;
-        background: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%), url("../asset/video-bg.png") no-repeat center bottom/cover;
+        background: linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%), url("../../asset/video-bg.png") no-repeat center bottom/cover;
         height: 750px;
         padding-left: 10%;
     }
@@ -200,8 +226,14 @@
     .content {
         display: flex;
         flex-direction: row;
-        padding-top: 10%;
         width: 100%;
+    }
+
+    .Layout1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10%;
     }
     .contentM {
         display: flex;
@@ -258,7 +290,6 @@
     }
 
     .btn {
-        position: absolute;
         width: 170px;
         top: 35%;
         height: 54px;

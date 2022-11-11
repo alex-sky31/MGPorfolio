@@ -1,8 +1,12 @@
 import React from "react";
 import './homePage.css'
-import P1 from '../asset/clu2.jpg'
-import insta from '../asset/instagram.png'
-import Balmain from '../asset/Balmain.jpg'
+import P1 from '../../asset/clu2.jpg'
+import insta from '../../asset/instagram.png'
+import Balmain from '../../asset/Balmain.jpg'
+// @ts-ignore
+import VideBg from '../../asset/bg.mp4'
+
+
 function homePage()  {
     return (
         <div className="GlobalLayout">
@@ -11,17 +15,20 @@ function homePage()  {
                     @Loguiso
                 </div>
                 <div className="headerIcon">
-                    <a href="https://www.instagram.com/loguiso/"> <img src={insta} width={22} color="white"/></a>
+                    <a href="src/pages/home/homePage"> <img src={insta} width={22} color="white"/></a>
                 </div>
             </div>
 {/*
             ///FIST CONTENT ELEMENT
-*/}
+*/} <div className="videoBg">
+            <video src={VideBg} autoPlay loop muted/>
+        </div>
+
             <div className="content">
                 <div className="content1">
                     <div className="contentTitle"> Fashion </div>
                     <div className="contentTitle"> Club </div>
-                    <div className="contentTitle"> Life.</div>
+                    <div className="contentTitle"> Event.</div>
                 </div>
                 <div className="content2">
                     <hr className="line"></hr>
@@ -34,7 +41,7 @@ function homePage()  {
 */}
 
 
-            <div className="content">
+            <div className="Layout1">
                 <div className="content1">
                     <div className="credit"> Photography - @Loguiso</div>
                     <img className="image" alt="P1" src={Balmain} width="90%"/>
@@ -43,7 +50,7 @@ function homePage()  {
                     <hr className="contentElement2line"></hr>
                     <div className="contentElement2Fashion"> Fashion </div>
                     <p className="contentElement2Title"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. </p>
-                    <p className="contentElement2Title"> &larr;	 View Project </p>
+                    <p className="contentElement2Title" >&larr;	 View Project</p>
                 </div>
             </div>
 
@@ -53,7 +60,7 @@ function homePage()  {
 */}
 
             <div className="contentM">
-                <div className="contentElement2">
+                <div className="contentElement2L">
                     <hr className="contentElement2line"></hr>
                     <div className="contentElement2Fashion"> Club </div>
                     <p className="contentElement2Title"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.. </p>
